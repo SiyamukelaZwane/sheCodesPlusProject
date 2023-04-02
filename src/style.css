@@ -23,11 +23,35 @@
 }
 
 .city {
-  margin: 0 auto;
   background: #f0f8ff;
   font-size: 15px;
-  width: 250px;
+  width: 450px;
   top: 0;
+  position: relative;
+  right: 0;
+  display: inline;
+}
+
+.search-button {
+  color: white;
+  background: #353cf7;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  right: -25px;
+  width: 120px;
+}
+
+.current-location {
+  color: white;
+  background: #1cc24b;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  right: -50px;
+  width: 120px;
 }
 
 p {
@@ -43,8 +67,15 @@ h1 {
   padding: 0;
   font-size: 70px;
   margin: 0;
+  display: inline;
 }
 
+.unit {
+  display: inline;
+  position: relative;
+  top: -50px;
+  font-weight: bold;
+}
 .sunny {
   color: yellow;
   font-size: 150px;
@@ -57,13 +88,14 @@ h1 {
 
 .today-weather {
   display: inline;
-  right: -200px;
+  right: 0;
   position: relative;
 }
 
 .cloudy {
   color: whitesmoke;
-  font-size: 100px;
+  font-size: 80px;
+  right: 50px;
 }
 
 .forecast .forecast2 .forecast6 {
@@ -73,74 +105,74 @@ h1 {
 
 .thunder {
   color: #b6c2cd;
-  font-size: 100px;
+  font-size: 80px;
   position: relative;
   right: -50px;
 }
 
 .rain {
   color: #1e9ff7;
-  font-size: 100px;
+  font-size: 80px;
   position: relative;
   right: -100px;
 }
 
 .sun {
   color: yellow;
-  font-size: 100px;
+  font-size: 80px;
   position: relative;
   right: -150px;
 }
 .clouds {
   color: whitesmoke;
-  font-size: 100px;
+  font-size: 80px;
   position: relative;
   right: -200px;
 }
 
 .forecast {
-  right: -50px;
+  right: -30px;
   position: relative;
   color: blue;
   font-weight: bold;
 }
 .forecast2 {
-  right: -120px;
+  right: -90px;
   position: relative;
 }
 .forecast3 {
-  right: -230px;
+  right: -200px;
   position: relative;
 }
 
 .forecast4 {
-  right: -330px;
+  right: -290px;
   position: relative;
 }
 
 .forecast5 {
-  right: -430px;
+  right: -380px;
   position: relative;
 }
 
 .time {
-  right: -30px;
+  right: -20px;
   position: relative;
 }
 .time2 {
-  right: -120px;
+  right: -90px;
   position: relative;
 }
 .time3 {
-  right: -220px;
+  right: -170px;
   position: relative;
 }
 .time4 {
-  right: -320px;
+  right: -260px;
   position: relative;
 }
 .time5 {
-  right: -430px;
+  right: -350px;
   position: relative;
 }
 .chance {
@@ -252,4 +284,7 @@ h1 {
 .temp2 {
   position: relative;
   right: -350px;
+}
+ul {
+  list-style: none;
 }
