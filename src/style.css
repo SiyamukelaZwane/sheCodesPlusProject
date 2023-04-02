@@ -175,6 +175,17 @@ h1 {
   right: -350px;
   position: relative;
 }
+.developer {
+  font-size: medium;
+  display: inline;
+  position: relative;
+  right: -350px;
+}
+
+a {
+  position: relative;
+  right: -350px;
+}
 .chance {
   text-align: center;
 }
