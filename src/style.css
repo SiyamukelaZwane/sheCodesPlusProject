@@ -22,6 +22,17 @@ ul {
 h3 {
   color: #556f8f;
 }
+a {
+  position: relative;
+  right: -480px;
+}
+.developer {
+  font-size: medium;
+  display: inline;
+  position: relative;
+  right: -480px;
+}
+
 .block {
   margin: 30px auto;
   border: 2px solid #7acdf3;
@@ -89,9 +100,4 @@ h3 {
   position: relative;
   top: -50px;
   font-weight: bold;
-}
-
-.developer {
-  font-size: medium;
-  display: inline;
 }
